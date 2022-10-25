@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+      @apply scroll-smooth;
+  }
+
+  body {
+    @apply min-h-screen h-full flex flex-col relative
+  }
+
+  main, #app {
+    @apply relative h-full;
+  }
+
+  .page {
+    @apply h-full;
+  }
+
+  .container {
+      @apply max-w-7xl mx-auto px-4 sm:px-12 2xl:px-6;
+  }
+  footer {
+    @apply relative bottom-0;
+  }
+}
